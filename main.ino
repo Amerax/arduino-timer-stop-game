@@ -38,46 +38,26 @@ void setup() {
 void loop(){
   targetTime = random(1, 6);
 
-  showScreen(
-    "PLAYER 1",
-    "TARGET: " + String(targetTime) + " SEC",
-    "PRESS TO START"
-  );
+  showScreen("PLAYER 1",  "TARGET: " + String(targetTime) + " SEC", "PRESS TO START");
 
   waitForPress(button1);
 
-  showScreen(
-    "PLAYER 1",
-    "GO!",
-    "PRESS TO STOP"
-  );
+  showScreen("PLAYER 1", "GO!" , "PRESS TO STOP");
 
   unsigned long startTime = millis();
   waitForPress(button1);
   unsigned long endTime = millis();
   player1Time = (endTime - startTime) / 1000.0;
 
-  showScreen(
-    "PLAYER 1",
-    String(player1Time, 2) + " SEC",
-    "DONE!"
-  );
+  showScreen("PLAYER 1", String(player1Time, 2) + " SEC",  "DONE!";
 
   delay(2000);
 
-  showScreen(
-    "PLAYER 2",
-    "TARGET: " + String(targetTime) + " SEC",
-    "PRESS TO START"
-  );
+  showScreen("PLAYER 2","TARGET: " + String(targetTime) + " SEC","PRESS TO START" );
 
   waitForPress(button2);
 
-  showScreen(
-    "PLAYER 2",
-    "GO!",
-    "PRESS TO STOP"
-  );
+  showScreen( "PLAYER 2",  "GO!", "PRESS TO STOP");
 
   startTime = millis();
   waitForPress(button2);
@@ -114,21 +94,15 @@ void loop(){
   display.setCursor(0, 45);
 
   if (difference1 < difference2) {
-
     display.println("P1 WINS!");
-
   } 
   else if (difference2 < difference1) {
-
     display.println("P2 WINS!");
   } 
   else {
-
     display.println("TIE!");
   }
-
   display.display();
-
   delay(5000);
 }
 
