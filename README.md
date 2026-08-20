@@ -1,5 +1,13 @@
 # arduino-timer-stop-game
 
+A two player Arduino timing game where each player tries to stop a timer as close as possible to a randomly selected target time. 
+
+I built this as I was inspired by different youtube videos and instagram reels where people would do this challernge. 
+
+The game uses two buttons and a monochrome OLED display. At the beginning of each round, the Arduino randomly selects a target time between 1 and 8 seconds. Both players compete against the exact same target.
+
+Great for fun for students in school. I decided to make this because there was no way I was going to buy 2 buttons and a real stopwatch for this, I decided I could just make it at home with what I had :)
+
 
 
 Bill of Materials
@@ -12,3 +20,6 @@ Bill of Materials
 | Breadboard | 1 | $5.00 | For prototyping and wiring |
 | Jumper Wires | 1 | $5.00 | For connecting components |
 | **Estimated Total** | | **$44.00** | |
+
+
+Demo link: https://www.youtube.com/watch?v=z8JxR8j9lNo 
