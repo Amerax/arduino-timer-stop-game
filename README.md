@@ -48,5 +48,13 @@ Bill of Materials
 | OLED | SCL | SCL |
 
 
+Images:
+
+<img width="1199" height="851" alt="image" src="https://github.com/user-attachments/assets/d1ae6627-3150-4af1-847d-db19e58408e4" />
+
+Schema:
+
+<img width="988" height="516" alt="image" src="https://github.com/user-attachments/assets/c8368b2c-af79-40c5-81ed-3932957558d9" />
+
 
 Demo link: https://www.youtube.com/watch?v=z8JxR8j9lNo 
