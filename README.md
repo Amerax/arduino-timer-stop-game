@@ -20,7 +20,13 @@ Features
 2. Connect your Arduino to your computer with a USB cable.  
 3. Select the correct **Board** and **Port** under **Tools**.  
 4. Click **Upload** (→).  
-5. Wait for the upload to finish. The Arduino will automatically restart and run the program. 
+5. Wait for the upload to finish. The Arduino will automatically restart and run the program.
+
+Libaries Used:  
+<Wire.h>  
+<Adafruit_GFX.h>  
+<Adafruit_SSD1306.h>  
+
 
 Bill of Materials
 
